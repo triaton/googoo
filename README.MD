@@ -5,10 +5,20 @@ Googoo is a Google Search CLI(Command Line Interface) can be used in window cmd 
 
 By the help or SerpApi, we can have a tool without this limitation. Googoo is built on top of SerpApi and SerpApi does everything behind the hood.
 
+SerpApi has a free plan that allows 100 requests per month. You can buy your subscription and increase the request limit.
 ## Requirements
 
 - python
 - pip
+
+## Environment Variable
+Please sign up on https://serpapi.com/ and you can find your API key from https://serpapi.com/manage-api-key.
+
+Set environment variable `SERP_API_KEY`.
+
+```bash
+$ export SERP_API_KEY=2e35def6...
+```
 
 ## Installation
 ```bash
